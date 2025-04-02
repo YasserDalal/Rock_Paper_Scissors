@@ -6,7 +6,7 @@
 &nbsp;
 #### I polish more of my knowledge using Tailwind CSS
 #### I created a simple, basic game for every one with minimalist-styled UI
-#### The UI is responsive to smaller screen, making it accessible to everyone.
+#### The UI is responsive to smaller screens, making it accessible to everyone.
 &nbsp;  
 
 #### This is the technology I used for this project 
