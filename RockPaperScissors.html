@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full min-w-[320px] min-h-[500px] bg-black">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+  </head>
+  <body class="h-full w-full bg-slate-900">
+    <div class=" h-full w-full relative justify-center max-sm:h-[720px] max-sm2:w-[370px]">
+      <div class=" max-h-full w-full absolute top-28 left-0 right-0 max-w-full grid-cols-1 grid-rows-[110px] justify-items-center   z-50">
+        <div class=" max-h-72 max-w-full  grid grid-cols-1 grid-rows-[1fr] top-20 justify-center ">
+          <div class=" min-h-full max-w-[600px] min-w-[293px] grid grid-cols-3 grid-rows-1 max-sm:gap-x-2 md:gap-x-9">
+            <div class="choices-buttons min-w-[100px] max-w-[500px] w-[clamp(100px,30vw,170px)] p-7 flex self-start aspect-square rounded-full border-2 border-white border-dashed max-h-[181px]  cursor-pointer hover:border-solid shadow-gray-500 hover:shadow-[0_2px_22px_0px_rgba(241,245,249,0.8)] transition-all duration-200" data-choice="rock">
+              <img class="w-full h-full" src="./images/rock-emoji.png" alt="Rock image">
+            </div>
+            
+            <div class="choices-buttons min-w-[100px] max-w-[510px] w-[clamp(100px,30vw,170px)] p-7 flex self-start aspect-square rounded-full border-2 border-white border-dashed max-h-[181px]  cursor-pointer hover:border-solid shadow-gray-500 hover:shadow-[0_2px_22px_0px_rgba(241,245,249,0.8)] transition-all duration-200" data-choice="paper">
+              <img class="w-full h-full" src="./images/paper-emoji.png" alt="Paper image">
+            </div>
+            
+            <div class="choices-buttons min-w-[100px] max-w-[510px] w-[clamp(100px,30vw,170px)] p-7 flex self-start aspect-square rounded-full border-2 border-white border-dashed max-h-[181px]  cursor-pointer hover:border-solid shadow-gray-500 hover:shadow-[0_2px_22px_0px_rgba(241,245,249,0.8)] transition-all duration-200" data-choice="scissors">
+              <img class="w-full h-full" src="./images/scissors-emoji.png" alt="Scissors image">
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 justify-items-center items-center h-screen relative">
+        <div class="grid gap-16 absolute bottom-[180px] max-md:bottom-64 grid-cols-1 left-0 right-0 text-slate-300">
+          <div class="result flex h-auto justify-center items-center  gap-3">
+      
+          </div>
+          <div class="button-container flex justify-center text-xl font-bold gap-7 ">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    <script src="./scripts/RockPaperScissors.js" type="module"></script>
+    <script src="./scripts/renders/render.js" type="module"></script>
+  </body>
+</html>
